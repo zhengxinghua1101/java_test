@@ -8,6 +8,6 @@ public class RootController {
 
     @RequestMapping("/")
     String  hi(){
-        return  "hi";
+        return  "Root 启动成功";
     }
 }

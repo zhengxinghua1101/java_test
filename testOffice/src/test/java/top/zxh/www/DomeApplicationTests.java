@@ -14,7 +14,7 @@ class DomeApplicationTests {
     @Test
     void contextLoads() throws IOException {
 
-        XWPFTemplate template = XWPFTemplate.compile("template.docx").render(
+        XWPFTemplate template = XWPFTemplate.compile("/template.docx").render(
                 new HashMap<String, Object>(){{
                     put("title", "Hi, poi-tl Word模板引擎");
                 }});
