@@ -15,5 +15,8 @@ public class JwtTest {
         DecodedJWT decodedJWT = jwtVerifier.verify("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJrZWVzb24iLCJpYXQiOjE2NDczMTEyODIsImV4cCI6MTY0ODYwNzI4MiwiYWNjb3VudCI6IjE5ODE3MDg4NDc3IiwiYXBwSWQiOiJreTdrZjBTR2VWa29MTm8zZGIzZDZiNWwyQkE2QkV5ciJ9.LVhW45v_rpA5zMBeG0lIlvx10NwyNvMPW0vNkH9fbi4");
         System.out.println(decodedJWT);
 
+
+        System.out.println("main");
+
     }
 }
