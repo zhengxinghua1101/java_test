@@ -20,6 +20,7 @@ public class JwtTest {
 
 
         System.out.println("main ==>dev");
+        System.out.println("dev2020-test-dev");
 
     }
 }
