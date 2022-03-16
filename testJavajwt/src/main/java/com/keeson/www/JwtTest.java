@@ -17,14 +17,6 @@ public class JwtTest {
 
 
 
-        System.out.println("main");
-
-
-        System.out.println("main ==>dev");
-        System.out.println("dev2020-test-dev");
-
-        System.out.println("dev");
-
 
     }
 }
